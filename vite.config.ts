@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Interpretation-Web/',
+  base: '/IPTW/',
   build: {
     target: 'es2020',
     outDir: 'dist',
