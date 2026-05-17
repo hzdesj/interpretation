@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>口译训练器</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🎙️ 英文口译训练</h1>
+      <button id="start-btn" class="btn-record">
+        <span class="btn-icon-large">🎤</span>
+        <span class="btn-text">开始录音</span>
+      </button>
+    </header>
+
+    <div class="status-bar">
+      <span id="status-text">加载中...</span>
+      <div id="model-progress" class="progress-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <div class="results-container">
+        <div class="top-row">
+          <div class="panel original-panel">
+            <div class="panel-header">
+              <h2>📝 原文</h2>
+              <button id="submit-btn" class="btn-submit hidden">提交</button>
+            </div>
+            <textarea id="original-text" class="text-content editable-text" placeholder="输入英文或等待录音..."></textarea>
+          </div>
+          <div class="panel translation-panel">
+            <h2>🌐 翻译</h2>
+            <pre id="translation-text" class="text-content"></pre>
+          </div>
+        </div>
+        <div class="bottom-row">
+          <div class="panel notes-panel">
+            <h2>📋 口译笔记</h2>
+            <pre id="notes-text" class="text-content"></pre>
+          </div>
+        </div>
+      </div>
+
+      
+    </main>
+
+    <footer class="footer">
+      <p>💡 提示：录音将自动转写为英文，并生成口译笔记</p>
+      <p class="privacy-note">🔒 您的音频仅在本地处理，仅文本内容会发送到云端</p>
+    </footer>
+  </div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
