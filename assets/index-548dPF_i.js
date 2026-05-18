@@ -4,7 +4,7 @@ Translation: Provide an accurate, natural Chinese translation.
 
 Interpretation Notes: Please generate concise interpretation notes based only on the original English text. Follow these five principles:
 
-  Concise and symbolic: Use one symbol to represent multiple words with similar meanings. Simplify Chinese characters to their most basic strokes, or use associative symbols wherever possible.
+  Concise and symbolic: Use one symbol to represent multiple words with similar meanings. Simplify Chinese characters to their most basic strokes, or use associative symbols wherever possible. But do not use images or emojis.
 
   Clear and unambiguous: Do not use the same symbol to represent different meanings within the same note.
 
