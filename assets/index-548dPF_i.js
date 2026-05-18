@@ -8,11 +8,9 @@ Interpretation Notes: Please generate concise interpretation notes based only on
 
   Clear and unambiguous: Do not use the same symbol to represent different meanings within the same note.
 
-  Flexible language use: Mix Chinese and English freely as long as it helps fluency and accuracy of interpretation.
-
   Common abbreviations and symbols: Include standard shortcuts for place names, currencies, time, weights/measures, company names, and frequent English abbreviations (e.g., max = maximum, min = minimum, ref = reference).
 
-  Logical relationship markers: Use arrows (→, ←, ↑, ↓), superscript/subscript symbols, cause-and-effect symbols (e.g., ∴, ∵), etc., to indicate information hierarchy and logical connections, thereby aiding contextual understanding.
+  Logical relationship markers: Use indentation, arrows (→, ←, ↑, ↓), superscript/subscript symbols, cause-and-effect symbols (e.g., ∴, ∵), etc., to indicate information hierarchy and logical connections, thereby aiding contextual understanding.
 
 Output format:
 ---TRANSLATION---
